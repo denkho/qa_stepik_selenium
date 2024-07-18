@@ -2,7 +2,7 @@ import time
 from selenium.webdriver.common.by import By
 
 
-def test_items(browser):
+def test_button_add_to_cart_presence(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
     browser.get(link)
